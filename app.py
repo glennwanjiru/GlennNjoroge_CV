@@ -117,8 +117,10 @@ def main():
                     '<li>WoodWork</li>'
                     '</ul>'
                     '<p>                                                    </p>'
-                    
+                    '<p>                                                    </p>'
+                    '<p>                                                    </p>'
                     '</div>', unsafe_allow_html=True)
+        st.text("")
 
     # Template for Skills in column 2
     with col2:
@@ -135,6 +137,10 @@ def main():
                     '<li>BLender: 🟠🟠🟠🟠🟠</li>'
                     '<li>Unity: 🟣🟣🟣🟣⚫</li>'
                     '</ul>'
+                    '<p>                                                    </p>'
+                    '<p>                                                    </p>'
+                    '<p>                                                    </p>'
+                    
                     '</div>', unsafe_allow_html=True)
         st.text("")
         st.text("")
