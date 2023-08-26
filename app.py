@@ -165,7 +165,7 @@ def main():
 
                 '<h3>Blender Samples 📺</h3>'
                 
-                '<p>This are some of my work finish</p>'
+                '<p>This are some of my work</p>'
                 '<p>🔽</p>'
                 #youtube link      
 
@@ -180,7 +180,7 @@ def main():
     video_path="Images/skeep.mp4"
     st.video(video_path)
     video2="Images/better be good.mp4"
-    st.video(video2)
+   # st.video(video2)
 
     youtube_url = "https://youtu.be/j6aWWx0S7OA"
     st.video(youtube_url)
