@@ -177,6 +177,9 @@ def main():
        
 
     # YouTube video URL
+    video_path="Images\skeep.mp4"
+    st.video(video_path)
+
     youtube_url = "https://youtu.be/j6aWWx0S7OA"
     st.video(youtube_url)
 
@@ -223,6 +226,8 @@ def image_to_base64(image):
     buffered = BytesIO()
     image.save(buffered, format="PNG")
     return base64.b64encode(buffered.getvalue()).decode()
+
+
 
 if __name__ == "__main__":
     main()
