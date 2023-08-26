@@ -134,7 +134,7 @@ def main():
                     '<li>Streamlit: 🔵🔵🔵🔵🔵</li>'
                     '<li>HTML and CSS: 🟡🟡🟡🟡⚫</li>'
                     '<li>JavaScript:⚪⚪⚪⚫⚫</li>'
-                    '<li>BLender: 🟠🟠🟠🟠🟠</li>'
+                    '<li>Blender: 🟠🟠🟠🟠🟠</li>'
                     '<li>Unity: 🟣🟣🟣🟣⚫</li>'
                     '</ul>'
                     '<p>                                                    </p>'
