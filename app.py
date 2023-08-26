@@ -166,6 +166,7 @@ def main():
                 '<h3>Blender Samples 📺</h3>'
                 
                 '<p>This are some of my work finish</p>'
+                '<p>🔽</p>'
                 #youtube link      
 
                     
@@ -176,8 +177,7 @@ def main():
        
 
     # YouTube video URL
-    youtube_url = "https://www.youtube.com/shorts/4gLP-JneVtI?feature=share"
-
+    youtube_url = "https://youtu.be/j6aWWx0S7OA"
     st.video(youtube_url)
 
    
