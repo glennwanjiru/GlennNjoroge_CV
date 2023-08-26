@@ -11,7 +11,7 @@ def main():
                 '</div>', unsafe_allow_html=True)
 
     # Open and resize the image
-    image = Image.open('Images\PSFix_20220622_161401 (12) (1).jpg')
+    image = Image.open('Images/PSFix_20220622_161401 (12) (1).jpg')
     image_resized = image.resize((300, int(300 * image.height / image.width)))
 
     # Center the image with rounded corners
