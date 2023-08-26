@@ -149,7 +149,7 @@ def main():
     st.markdown('<div style="background-color: #CCAD8F; padding: 20px; border-radius: 10px;">'
                 '<h2>Projects</h2>'
                 '<h3>Gamma and Haron Predictor ML Model 🤖</h3>'
-                '<p><a href="https://project-link/" target="_blank" rel="noopener noreferrer">'
+                '<p><a href="https://github.com/glennwanjiru/ML-hadrons-and-gamma-prediction" target="_blank" rel="noopener noreferrer">'
                 'Link to Project</a></p>'
                 '<p>This is a machine learninng model am working on for predicting Gammas and Hadrons...<br/> I have use diffrerent approaches to make sure i get the best accuracy</p>'
                 '<p>   </p>'
