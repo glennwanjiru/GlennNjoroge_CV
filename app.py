@@ -177,8 +177,10 @@ def main():
        
 
     # YouTube video URL
-    video_path="Images\skeep.mp4"
+    video_path="Images/skeep.mp4"
     st.video(video_path)
+    video2="Images/better be good.mp4"
+    st.video(video2)
 
     youtube_url = "https://youtu.be/j6aWWx0S7OA"
     st.video(youtube_url)
