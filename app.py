@@ -177,6 +177,7 @@ def main():
 
     # YouTube video URL
     youtube_url = "https://www.youtube.com/shorts/4gLP-JneVtI?feature=share"
+
     st.video(youtube_url)
 
    
@@ -184,7 +185,7 @@ def main():
     st.text("")
 
     st.markdown('<div style="text-align: center;">'
-                '<h2>Social Media and Contacts</h2>'
+                '<h2>Social Media</h2>'
                 '</div>', unsafe_allow_html=True)
 
     # Template for Social Media Handles
@@ -201,6 +202,19 @@ def main():
             '<a href="https://youtube.com/@stainedcoffeecup?si=OHmxfOEJhZTsop2F" target="_blank" rel="noopener noreferrer">'
             '<img src="Images/youtube.png" alt="Youtube" width="30" height="30"></a>'
             '</div>', unsafe_allow_html=True)
+    st.markdown('<div style="text-align: center;">'
+                '<h2>Contact Information</h2>'
+                '</div>', unsafe_allow_html=True)
+
+    # Template for Contacts
+    st.markdown('<div style="background-color: #02020B; padding: 20px; border-radius: 10px;">'
+                '<h3>Email</h3>'
+                '<p><a href="mailto:glennnjoroge@gmail.com">glennnjoroge@gmail.com</a></p>'
+                '<h3>Phone</h3>'
+                '<p><a href="tel:+254759010706">+254759010706</a></p>'
+                '<p><a href="tel:+254748194806">+254748194806</a></p>'
+                '<p><a href="tel:+254731350825">+254731350825</a></p>'
+                '</div>', unsafe_allow_html=True)
 
 
 def image_to_base64(image):
