@@ -3,10 +3,12 @@ from PIL import Image
 
 
 
+
 def main():
     
     # Centering everything
     st.markdown('<div style="text-align: center;">'
+                 '<p>_______________________</p>'
                 '<h1>John Glenn Njoroge Wanjiru</h1>'
                 '</div>', unsafe_allow_html=True)
 
@@ -22,16 +24,19 @@ def main():
                 'style="border-color: aqua;"'
                 'style="border-width: 20px;">'
                 
-                '<p></p>'
+               
+                '<p>___________________________________________________________________________________</p>'
                 '</div>', unsafe_allow_html=True)
 
     st.markdown('<div style="text-align: center;">'
                 '<h2>Summary</h2>'
+                '<p>___________________________________________________________________________________</p>'
                 '<p>I am Glenn Njoroge, a versatile professional with expertise in machine learning '
                 'and a background in 3D modeling and animation. I excel in data preprocessing, '
                 'feature engineering, and model selection. Using Blender, I create visually stunning '
                 '3D models. Currently pursuing a Bachelors degree in Computer Science at Kabarak '
                 'University, I am dedicated to continuous learning and driving innovation.</p>'
+                '<p>___________________________________________________________________________________</p>'
                 '</div>', unsafe_allow_html=True)
 
     st.markdown('<div style="text-align: center;">'
@@ -45,11 +50,13 @@ def main():
                 '<p><em>Jan 2023- Jan-2023</em></p>'
                 '<p>    I created a 3d animation for an investigation<br/> Followed Storyboard and concept art to create 3d versions of desired components</p>'
                 '<p>                                                    </p>'
+                '<p>___________________________________________________________________________________</p>'
 # job 2
                  '<h3>MPESA Agent</h3>'
                 '<p><strong>Elizabeth Shop</strong>, Ruiru</p>'
                 '<p><em>Sep 2021- Dec-2022</em></p>'
                 '<p>    Completed day-to-day transactions such as withdrawal and deposit of money to serve clients<br/></p>'
+                '<p>___________________________________________________________________________________</p>'
 
                 '<h3>Food Packer</h3>'
                 '<p><strong>Posho Company</strong>, Kiambu</p>'
@@ -57,6 +64,7 @@ def main():
                 '<p>    Sorted and packed floor on the assembly line to prepare for shipping <br/> weighed and labeled completed items for shipment and storage <br/>promoted safe and clean workspace to increase productivity and job satisfaction  </p>'
                
                 '<p>                                                    </p>'
+                '<p>___________________________________________________________________________________</p>'
 
                 '<h3>Shop Keeper</h3>'
                 '<p><strong>Fair price Shop</strong>, Laipikipia,Nyahururu</p>'
@@ -81,14 +89,16 @@ def main():
                 '<p>Attended a Machine Learning bootcamp<br/> Member of the Google DSC group </p>'
                 '<p>                                                    </p>'
                 '<p>                                                    </p>'
+                '<p>___________________________________________________________________________________</p>'
                 '<h3>High school Diploma</h3>'
                 '<p><strong>Saint Joseph High School</strong>, Kiambu</p>'
                 '<p><em>2016-2019</em></p>'
                 '<p>Was Computer Lab Captain<br/> Was the head of IT club </p>'
                 '<p>                                                    </p>'
-                '<p>                                                    </p>'  
-                '<h3>High school Diploma</h3>'
-                '<p><strong>Saint Joseph High School</strong>, Kiambu</p>'
+                '<p>                                                    </p>'
+                '<p>___________________________________________________________________________________</p>'  
+                '<h3>KCSE certificate</h3>'
+                '<p><strong>GG Kinamba Primary School</strong>, Kiambu</p>'
                 '<p><em>2007-2015</em></p>'
                 '<p>Was the school president <br/>Sub-county Environment President <br/>Member of the Redcross Club </p>'
                 '<p>                                                    </p>'
@@ -148,20 +158,29 @@ def main():
     # Template for Projects spanning both columns
     st.markdown('<div style="background-color: #CCAD8F; padding: 20px; border-radius: 10px;">'
                 '<h2>Projects</h2>'
+                '<p>___________________________________________________________________________________</p>'
+
                 '<h3>Gamma and Haron Predictor ML Model 🤖</h3>'
-                '<p><a href="https://github.com/glennwanjiru/ML-hadrons-and-gamma-prediction" target="_blank" rel="noopener noreferrer">'
-                'Link to Project</a></p>'
+
+                '<p><i>click the robot to view the project</i></p>'
+                '<p><b> 🔽 </b></p>'
+                '<a href="https://github.com/glennwanjiru/ML-hadrons-and-gamma-prediction" target="_blank" rel="noopener noreferrer">'
+                '<img src="https://img.icons8.com/?size=512&id=GBu1KXnCZZ8j&format=png" alt="LinkedIn" width="70" height="70"></a>'
+                '&nbsp;&nbsp;'
                 '<p>This is a machine learninng model am working on for predicting Gammas and Hadrons...<br/> I have use diffrerent approaches to make sure i get the best accuracy</p>'
                 '<p>   </p>'
+                '<p>___________________________________________________________________________________</p>'
                 '<h3>Cubotron 🎮</h3>'
                 
                 '<p>This is a game Am working on am supposed to release is by end this year 2023 <br/>Its a private project but i will make sure i put the link here when i finish</p>'
+                '<p>___________________________________________________________________________________</p>'
 
 
                 '<h3>Lectacle 🤖</h3>'
                 
                 '<p>This is an app am developing with DOTNET MAUI<br/> Its a App for teaching you courses using the GPT model<br/>it is still in early development</p>'
                 '<p>   </p>'
+                '<p>___________________________________________________________________________________</p>'
 
                 '<h3>Blender Samples 📺</h3>'
                 
@@ -190,23 +209,40 @@ def main():
     st.text("")
 
     st.markdown('<div style="text-align: center;">'
-                '<h2>Social Media</h2>'
+                '<h2>My Socials</h2>'
                 '</div>', unsafe_allow_html=True)
 
     # Template for Social Media Handles
     st.markdown('<div style="text-align: center; margin-bottom: 20px;">'
             '<a href="https://www.linkedin.com/in/glenn-wanjiru-10213b24a/" target="_blank" rel="noopener noreferrer">'
-            '<img src="Images/linkedin.png" alt="LinkedIn" width="30" height="30"></a>'
+            '<img src="https://img.icons8.com/?size=512&id=xuvGCOXi8Wyg&format=png" alt="LinkedIn" width="70" height="70"></a>'
             '&nbsp;&nbsp;'
+            '<p>|</p>'
+            '<p>___________________________________________________________________________________</p>'
             '<a href="https://twitter.com/Glennnjoroge" target="_blank" rel="noopener noreferrer">'
-            '<img src="Images/twitter-x-black-hexagon-logo-20917.png" alt="Twitter" width="30" height="30"></a>'
+            '<img src="https://img.icons8.com/?size=512&id=ClbD5JTFM7FA&format=png" alt="Twitter" width="70" height="70"></a>'
             '&nbsp;&nbsp;'
+             '<p>|</p>'
+             '<p>___________________________________________________________________________________</p>'
             '<a href="https://github.com/glennwanjiru" target="_blank" rel="noopener noreferrer">'
-            '<img src="Images/github.png" alt="GitHub" width="30" height="30"></a>'
+            '<img src="https://img.icons8.com/?size=512&id=63777&format=png" alt="GitHub" width="70" height="70"></a>'
+             '<p>|</p>'
+             '<p>___________________________________________________________________________________</p>'
 
             '<a href="https://youtube.com/@stainedcoffeecup?si=OHmxfOEJhZTsop2F" target="_blank" rel="noopener noreferrer">'
-            '<img src="Images/youtube.png" alt="Youtube" width="30" height="30"></a>'
+            '<img src="https://img.icons8.com/?size=512&id=19318&format=png" alt="Youtube" width="70" height="70"></a>'
+            '<p>|</p>'
+            '<p>___________________________________________________________________________________</p>'
+
+            '<a href="https://wa.me/+254759010706" target="_blank" rel="noopener noreferrer">'
+            '<img src="https://img.icons8.com/?size=512&id=16713&format=png" alt="Youtube" width="70" height="70"></a>'
+
+
+
             '</div>', unsafe_allow_html=True)
+    
+
+
     st.markdown('<div style="text-align: center;">'
                 '<h2>Contact Information</h2>'
                 '</div>', unsafe_allow_html=True)
@@ -214,12 +250,38 @@ def main():
     # Template for Contacts
     st.markdown('<div style="background-color: #02020B; padding: 20px; border-radius: 10px;">'
                 '<h3>Email</h3>'
-                '<p><a href="mailto:glennnjoroge@gmail.com">glennnjoroge@gmail.com</a></p>'
-                '<h3>Phone</h3>'
-                '<p><a href="tel:+254759010706">+254759010706</a></p>'
-                '<p><a href="tel:+254748194806">+254748194806</a></p>'
-                '<p><a href="tel:+254731350825">+254731350825</a></p>'
+              
+
+              '<a href="mailto:glennnjoroge@gmail.com" target="_blank" rel="noopener noreferrer">'
+                '<img src="https://img.icons8.com/?size=512&id=P7UIlhbpWzZm&format=png" alt="Youtube" width="70" height="70"></a>'
+                '<p>___________________________________________________________________________________</p>'
+
+
+
+                '<h3>My Phone Numbers</h3>'
+              '<a href="tel:tel:+254759010706" target="_blank" rel="noopener noreferrer">'
+                '<img src="https://img.icons8.com/?size=512&id=qFEX1rLDboeY&format=png" alt="Youtube" width="70" height="70"></a>'
+                
+
+
+
+                '<p>___________________________________________________________________________________</p>'
+                '<a href="tel:tel:+254731350825" target="_blank" rel="noopener noreferrer">'
+                '<img src="https://img.icons8.com/?size=1x&id=82267&format=png" alt="Youtube" width="70" height="70"></a>'
+                '<p>___________________________________________________________________________________</p>'
+                
+               
+
+                              '<a href="tel:tel:++254748194806" target="_blank" rel="noopener noreferrer">'
+                '<img src="https://img.icons8.com/?size=1x&id=68717&format=png" alt="Youtube" width="70" height="70"></a>'
+           
+
                 '</div>', unsafe_allow_html=True)
+
+    # Add a clickable image button using HTML and Markdown
+    
+
+
 
 
 def image_to_base64(image):
