@@ -259,20 +259,20 @@ def main():
 
 
                 '<h3>My Phone Numbers</h3>'
-              '<a href="tel:tel:+254759010706" target="_blank" rel="noopener noreferrer">'
+              '<a href="tel:+254759010706" target="_blank" rel="noopener noreferrer">'
                 '<img src="https://img.icons8.com/?size=512&id=qFEX1rLDboeY&format=png" alt="Youtube" width="70" height="70"></a>'
                 
 
 
 
                 '<p>___________________________________________________________________________________</p>'
-                '<a href="tel:tel:+254731350825" target="_blank" rel="noopener noreferrer">'
+                '<a href="tel:+254731350825" target="_blank" rel="noopener noreferrer">'
                 '<img src="https://img.icons8.com/?size=1x&id=82267&format=png" alt="Youtube" width="70" height="70"></a>'
                 '<p>___________________________________________________________________________________</p>'
                 
                
 
-                              '<a href="tel:tel:++254748194806" target="_blank" rel="noopener noreferrer">'
+                              '<a href="tel:+254748194806" target="_blank" rel="noopener noreferrer">'
                 '<img src="https://img.icons8.com/?size=1x&id=68717&format=png" alt="Youtube" width="70" height="70"></a>'
            
 
