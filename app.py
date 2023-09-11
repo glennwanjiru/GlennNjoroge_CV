@@ -31,11 +31,11 @@ def main():
     st.markdown('<div style="text-align: center;">'
                 '<h2>Summary</h2>'
                 '<p>___________________________________________________________________________________</p>'
-                '<p>I am Glenn Njoroge, a versatile professional with expertise in machine learning '
+                '<p>I am <b>Glenn Njoroge</b>, a versatile professional with expertise in <b>machine learning</b> '
                 'and a background in 3D modeling and animation. I excel in data preprocessing, '
-                'feature engineering, and model selection. Using Blender, I create visually stunning '
-                '3D models. Currently pursuing a Bachelors degree in Computer Science at Kabarak '
-                'University, I am dedicated to continuous learning and driving innovation.</p>'
+                'feature engineering, and model selection. Using <b>Blender</b>, I create visually stunning '
+                '3D models.I am an App developer and am highly skilled in <b>Flutter</b> and <b>.NetMAUI</b>. Currently pursuing a Bachelors degree in Computer Science at <b>Kabarak '
+                'University</b>, I am dedicated to continuous learning and driving innovation.</p>'
                 '<p>___________________________________________________________________________________</p>'
                 '</div>', unsafe_allow_html=True)
 
@@ -124,7 +124,9 @@ def main():
                     '<li>Game Development</li>'
                     '<li>Reading Scifi Comics</li>'
                     '<li>Making Animations</li>'
+                    '<li>Hiking</li>'
                     '<li>WoodWork</li>'
+                    '<li>Video Editing</li>'
                     '</ul>'
                     '<p>                                                    </p>'
                     '<p>                                                    </p>'
@@ -138,6 +140,7 @@ def main():
                     '<h2>Skills</h2>'
                     '<ul>'
                     '<li>.NET MAUI with C# : 🟣🟣🟣🟣⚫</li>'
+                    '<li>Flutter : 🔵🔵🔵🔵⚫</li>'
                     '<li>Python :       🐍🐍🐍🐍🐍</li>'
                     '<li>Svelte: 🔴🔴🔴⚫⚫</li>'
                     '<li>Machine Learning : 🟤🟤🟤⚫⚫</li>'
@@ -159,6 +162,26 @@ def main():
     st.markdown('<div style="background-color: #CCAD8F; padding: 20px; border-radius: 10px;">'
                 '<h2>Projects</h2>'
                 '<p>___________________________________________________________________________________</p>'
+
+                                '<h3>Random name Generator ⚙</h3>'
+                
+                '<p>This is a flutter app for generating Random English words ❤<br/> Its minimalistic and Pretty <br/></p>'
+
+
+                '<p>   </p>'
+                '<p>___________________________________________________________________________________</p>'
+
+
+                
+                                '<h3>Fitness App 🥣</h3>'
+                
+                '<p>This is a Design concept for health and fitness app ❤<br/> Its made with Flutter....Flutter is Amazing<br/></p>'
+
+
+                '<p>   </p>'
+                '<p>___________________________________________________________________________________</p>'
+
+
 
                 '<h3>Gamma and Haron Predictor ML Model 🤖</h3>'
 
@@ -193,7 +216,18 @@ def main():
 
 
                 '</div>', unsafe_allow_html=True)
+    
+
+
+    video_path1="Images/fitnessApp.mp4"
+    st.video(video_path1)
+    
+    video_path3="Images/namegen.mp4"
+    st.video(video_path3)
+    
        
+
+
 
     # YouTube video URL
     video_path="Images/skeep.mp4"
@@ -213,7 +247,7 @@ def main():
                 '</div>', unsafe_allow_html=True)
 
     # Template for Social Media Handles
-    st.markdown('<div style="text-align: center; margin-bottom: 20px;">'
+    st.markdown('<div style="text-align: center; margin-bottom: 20px; ">'
             '<a href="https://www.linkedin.com/in/glenn-wanjiru-10213b24a/" target="_blank" rel="noopener noreferrer">'
             '<img src="https://img.icons8.com/?size=512&id=xuvGCOXi8Wyg&format=png" alt="LinkedIn" width="70" height="70"></a>'
             '&nbsp;&nbsp;'
@@ -249,7 +283,7 @@ def main():
                 '</div>', unsafe_allow_html=True)
 
     # Template for Contacts
-    st.markdown('<div style="background-color: #02020B; padding: 20px; border-radius: 10px;">'
+    st.markdown('<div style="background-color:#255C69; padding: 20px; border-radius: 10px;">'
                 '<h3>Email</h3>'
               
 
